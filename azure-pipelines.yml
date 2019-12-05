@@ -11,8 +11,8 @@ pool:
 
 variables:
   solution: '**\SampleWebApplication.sln'
-  buildPlatform: x86, x64
-  buildConfiguration: debug, release
+  buildPlatform: x86
+  buildConfiguration: debug
 
 steps:
 - task: NuGetToolInstaller@1
